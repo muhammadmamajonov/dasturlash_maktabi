@@ -36,7 +36,7 @@
                     <img class="card-img-top" src="{{playlist.rasm.url}}" alt="https://unsplash.com/@dsmacinnes">
                     <div class="card-body text-center">
 
-                        <div class="card-title"><a href="">{{ playlist.nomi}}</a></div>
+                        <div class="card-title"><a href="{% url 'playlist-dateil' playlist.id %}">{{ playlist.nomi}}</a></div>
                         <br>
                         <div class="card-text">{{playlist.sana}}</div><br>
                         <div class="card-text">Siz bu darsimizda django bo'yicha boshlng'ich ma'lumotga ega bo'lishingiz mumkin</div>
